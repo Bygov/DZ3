@@ -36,7 +36,7 @@ for (let e = 1; e <= 10; e++) {
 
 // 6
 
-for (let f = 1; f < 11; f++) {
+for (let f = 1; f <= 11; f++) {
     console.log(f * 5);
 }
 
