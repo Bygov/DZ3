@@ -12,7 +12,7 @@ for (let b = 20; b >= 1; b--) {
 
 // 3
 
-for (let c = 1; c < 50; c++) {
+for (let c = 1; c <= 50; c++) {
     if (c % 2 === 0) {
         console.log(c);
     }
@@ -30,7 +30,7 @@ console.log(sum);
 
 // 5
 
-for (let e = 1; e < 10; e++) {
+for (let e = 1; e <= 10; e++) {
     console.log(e * e);
 }
 
