@@ -90,16 +90,28 @@ console.log("Город:", user.city);
 
 user.age = 30;
 
-console.log(user.age);
+console.log("Возраст;", user.age);
 
 // 3
 
 user.phone = "000000000";
 
-console.log(user);
+console.log("Телефон:", user.phone);
 
 // 4 
 
 delete user.city;
 
 // 5 
+
+console.log("email" in user);
+
+// 6
+
+for (let key in user) {
+    console.log(key);
+}
+
+// 7
+
+console.log(Object.values(user));
