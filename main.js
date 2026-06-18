@@ -1,3 +1,5 @@
+// Циклы
+
 // 1
 
 for (let a = 1; a <= 20; a++) {
@@ -69,3 +71,35 @@ for (let i = 0; i <= 100; i++) {
 } 
 
 console.log(sum2);
+
+// Массивы
+
+// 1
+
+const user = {
+    name: "Alex",
+    age: 21,
+    city: "Tokyo"
+};
+
+console.log("Имя:", user.name);
+console.log("Возраст:", user.age);
+console.log("Город:", user.city);
+
+// 2
+
+user.age = 30;
+
+console.log(user.age);
+
+// 3
+
+user.phone = "000000000";
+
+console.log(user);
+
+// 4 
+
+delete user.city;
+
+// 5 
